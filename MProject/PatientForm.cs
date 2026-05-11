@@ -12,7 +12,7 @@ namespace MProject
 {
     public partial class PatientForm : Form
     {
-        string name;
+        string name1;
         int id;
         string emailAddress;
         string role;
@@ -21,7 +21,7 @@ namespace MProject
             InitializeComponent();
             this.id = id;
             this.role = role;
-            this.name = name;
+            this.name1 = name;
             this.emailAddress = email1;   
         }
 
