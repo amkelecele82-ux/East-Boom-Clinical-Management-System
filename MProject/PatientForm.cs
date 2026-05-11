@@ -14,7 +14,7 @@ namespace MProject
     {
         string name;
         int id;
-        string email1;
+        string emailAddress;
         string role;
         public PatientForm(int id, string role, string name, string email1)
         {
@@ -22,7 +22,7 @@ namespace MProject
             this.id = id;
             this.role = role;
             this.name = name;
-            this.email1 = email1;   
+            this.emailAddress = email1;   
         }
 
         private void PatientForm_Load(object sender, EventArgs e)
